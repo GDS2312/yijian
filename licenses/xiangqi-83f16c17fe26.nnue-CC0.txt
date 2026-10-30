@@ -1,0 +1,8 @@
+The file ../public/xiangqi-83f16c17fe26.nnue is the official Xiangqi NNUE network shipped with Fairy-Stockfish XQ 14.0.1.
+
+Source and provenance:
+- Upstream: https://github.com/fairy-stockfish/Fairy-Stockfish
+- Matching network filename/hash prefix: xiangqi-83f16c17fe26.nnue
+- Network license: CC0 (as distributed by the upstream Fairy-Stockfish XQ release)
+
+The browser Worker fetches this same-origin file, writes it into the WASM virtual filesystem, then sends `setoption name EvalFile value /xiangqi-83f16c17fe26.nnue` before `isready`. The UI reports the engine as “Fairy-Stockfish WASM · 浏览器 NNUE” only after the ready response.
